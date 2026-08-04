@@ -5,10 +5,18 @@ edition = "2024"
 default-run = "teacher-service"
 
 [dependencies]
-actix-web = "3"
-actix-rt = "1.1.1"
+actix-web = "4.0.0"
+actix-rt = "2.6.0"
 serde ={ version = "1.0.132", features = ["derive"]}
 chrono = { version = "0.4.19", features =["serde"]}
+openssl = { version = "0.10.81", features=["vendored"]}
+sqlx = {version = "0.8", default-features = false, features = [
+    "postgres",
+    "runtime-tokio-rustls",
+    "macros",
+    "chrono",
+]}
+dotenv = "0.15.0"
 
 [[bin]]
 name = "server1"
