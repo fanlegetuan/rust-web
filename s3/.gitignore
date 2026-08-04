@@ -1,0 +1,5 @@
+# Build artifacts (match at any depth)
+target/
+
+# Environment files (contain secrets)
+.env
