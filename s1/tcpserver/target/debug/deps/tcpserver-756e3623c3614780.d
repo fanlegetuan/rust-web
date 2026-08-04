@@ -1,0 +1,9 @@
+/home/allengl/repos/s1/tcpserver/target/debug/deps/tcpserver-756e3623c3614780.d: src/main.rs Cargo.toml
+
+/home/allengl/repos/s1/tcpserver/target/debug/deps/libtcpserver-756e3623c3614780.rmeta: src/main.rs Cargo.toml
+
+src/main.rs:
+Cargo.toml:
+
+# env-dep:CLIPPY_ARGS=--no-deps__CLIPPY_HACKERY__
+# env-dep:CLIPPY_CONF_DIR
