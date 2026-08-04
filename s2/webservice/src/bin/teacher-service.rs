@@ -5,7 +5,7 @@ use std::sync::Mutex;
 #[path = "../handlers.rs"]
 mod handlers;
 #[path = "../models.rs"]
-mod modelds;
+mod models;
 #[path = "../routers.rs"]
 mod routers;
 #[path = "../state.rs"]
